@@ -1,0 +1,7 @@
+default:
+  title: Basic Math Rubric
+  total_points: 10
+  criteria:
+    accuracy: 5
+    method: 3
+    presentation: 2

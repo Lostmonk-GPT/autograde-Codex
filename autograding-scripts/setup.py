@@ -1,0 +1,19 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='autograding-scripts',
+    version='0.1.0',
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
+    install_requires=[
+        'pix2text==1.1.3.2',
+        'opencv-python==4.9.0.80',
+        'Pillow==9.5.0',
+        'sympy==1.12',
+        'numpy==1.25.2',
+        'reportlab==3.6.12',
+        'python-dotenv==1.0.1',
+        'loguru==0.7.2',
+        'PyYAML==6.0.1',
+    ],
+)
